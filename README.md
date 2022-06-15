@@ -8,7 +8,7 @@ Find all `TODOs` on files touched by your branch.
 
 ## Installation
 
-Move `git-find-todo` script to folder in your `$PATH`.
+Move `git-todo` script to folder in your `$PATH`.
 
 After that script will be available with following command
 

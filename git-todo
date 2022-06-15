@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+git diff --name-only main | xargs rg TODO
